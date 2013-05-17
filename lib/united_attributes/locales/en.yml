@@ -1,0 +1,228 @@
+en:
+  united_attributes:
+    area:
+      square_millimeter:
+        one: square millimeter
+        other: square millimeters
+      square_centimeter:
+        one: square centimeter
+        other: square centimers
+      square_meter:
+        one: square meter
+        other: square meters
+      square_kilometer:
+        one: square kilometer
+        other: square kilometers
+      square_inch:
+        one: square inch
+        other: square inch
+      square_mile:
+        one: square mile
+        other: square miles
+      hectare:
+        one: hectare
+        other: hectares
+      acre:
+        one: acre
+        other: acres
+
+    data:
+      byte:
+        one: byte
+        other: bytes
+      bit:
+        one: bit
+        other: bits
+      kilobit:
+        one: kilobit
+        other: kilobits
+      megabit:
+        one: megabit
+        other: megabits
+      gigabit:
+        one: gigabit
+        other: gigabits
+      terabit:
+        one: terabit
+        other: terabits
+      petabit:
+        one: petabit
+        other: petabits
+      exabit:
+        one: exabit
+        other: exabits
+
+      kibibit:
+        one: kibibit
+        other: kibibits
+      mebibit:
+        one: mebibit
+        other: mebibits
+      gibibit:
+        one: gibibit
+        other: gibibits
+      tebibit:
+        one: tebibit
+        other: tebibits
+      pebibit:
+        one: pebibit
+        other: pebibits
+      exbibit:
+        one: exbibit
+        other: exbibits
+
+      kilobyte:
+            one: kilobyte
+            other: kilobytes
+      megabyte:
+            one: megabyte
+            other: megabytes
+      gigabyte:
+            one: gigabyte
+            other: gigabytes
+      terabyte:
+            one: terabyte
+            other: terabytes
+      petabyte:
+            one: petabyte
+            other: petabytes
+      exabyte:
+            one: exabyte
+            other: exabytes
+
+      kibibyte:
+            one: kibibyte
+            other: kibibytes
+      mebibyte:
+            one: mebibyte
+            other: mebibytes
+      gibibyte:
+            one: gibibyte
+            other: gibibytes
+      tebibyte:
+            one: tebibyte
+            other: tebibytes
+      pebibyte:
+            one: pebibyte
+            other: pebibytes
+      exbibyte:
+            one: exbibyte
+            other: exbibytes
+
+    length:
+      nanometer:
+        one: nanometer
+        other: nanometers
+      micrometer:
+        one: micrometer
+        other: micrometers
+      micron:
+        one: micron
+        other: microns
+      millimeter:
+        one: millimeter
+        other: millimeters
+      centimeter:
+        one: centimeter
+        other: centimeters
+      meter:
+        one: meter
+        other: meters
+      kilometer:
+        one: kilometer
+        other: kilometers
+
+    space:
+      milliliter:
+        one: milliliters
+        other: milliliters
+      centiliter:
+        one: centiliters
+        other: centiliters
+      deciliter:
+        one: deciliter
+        other: deciliters
+      liter:
+        one: liter
+        other: liters
+      cubic_millimeter:
+        one: cubic millimeter
+        other: cubic millimeters
+      cubic_centimeter:
+        one: cubic centimeter
+        other: cubic centimeters
+      cubic_decimeter:
+        one: cubic decimeter
+        other: cubic decimeters
+      cubic_meter:
+        one: cubic meter
+        other: cubic meters
+      cubic_kilometer:
+        one: cubic kilometer
+        other: cubic kilometers
+      gallon:
+        one: gallon
+        other: gallons
+      pint:
+        one: pint
+        other: pints
+
+    speed:
+      meters_per_second:
+        other: meter per second
+        other: meters per second
+      meters_per_hour:
+        one: meter per hour
+        other: meters per hour
+      kilometers_per_second:
+        one: kilometer per second
+        other: kilometers per second
+      kilometers_per_hour:
+        one: kilometer per hour
+        others: kilometers per hour
+      miles_per_second:
+        one: mile per second
+        other: miles per seconds
+      miles_per_hour:
+        one: mile per hour
+        other: miles per hour
+
+    time:
+      day:
+        one: day
+        other: days
+      hour:
+        one: hour
+        other: hours
+      minute:
+        one: minute
+        other: minutes
+      month:
+        one: month
+        other: months
+      second:
+        one: second
+        other: seconds
+      week:
+        one: week
+        other: weeks
+      year:
+        one: year
+        other: years
+
+    weight:
+      milligram:
+        one: milligram
+        other: milligrams
+      gram:
+        one: gram
+        other: grams
+      kilogram:
+        one: kilogram
+        other: kilograms
+      tonne:
+        one: tonne
+        other: tonnes
+      pound:
+        one: pound
+        other: pounds

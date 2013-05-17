@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  birthday: 2013-05-17 21:56:58
+  weight: 9.99
+  top_speed: 9.99
+  height: 9.99
+
+two:
+  name: MyString
+  birthday: 2013-05-17 21:56:58
+  weight: 9.99
+  top_speed: 9.99
+  height: 9.99

@@ -1,0 +1,58 @@
+da:
+  united_attributes:
+
+    area:
+      square_meter:
+        other: kvadratmeter
+      square_kilometer:
+        other: kvadratkilometer
+
+    length:
+      millimeter:
+        other: millimeter
+      centimeter:
+        other: centimeter
+      meter:
+        other: meter
+      kilometer:
+        other: kilometer
+
+    space:
+      cubic_meter:
+        other: kubikmeter
+      cubic_kilometer:
+        other: kubikkilometer
+      liter:
+        other: liter
+
+
+    time:
+      day:
+        one: dag
+        other: dage
+      hour:
+        one: time
+        other: timer
+      minute:
+        one: minut
+        other: minutter
+      month:
+        one: måned
+        other: måneder
+      second:
+        one: sekund
+        other: sekunder
+      week:
+        one: uge
+        other: uger
+      year:
+        other: år
+
+    weight:
+      gram:
+        other: gram
+      kilogram:
+        other: kilogram
+      tonne:
+        one: ton
+        other: tons

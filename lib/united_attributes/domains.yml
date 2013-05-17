@@ -1,0 +1,84 @@
+area:
+  square_millimeter: 0.000001
+  square_centimeter: 0.0001
+  square_meter: 1
+  square_kilometer: 1000000
+  square_inch: 0.00064516
+  square_mile: 2589988.11
+  hectare: 10000
+  acre: 4046.8564224
+
+data:
+  byte: 1
+  bit: 0.125
+  kilobit: 125
+  megabit: 125000
+  gigabit: 125000000
+  terabit: 125000000000
+  petabit: 125000000000000
+  exabit: 125000000000000000
+  kibibit: 128
+  mebibit: 131072
+  gibibit: 134217728
+  tebibit: 137438953472
+  pebibit: 140737488355328
+  exbibit: 144115188075855872
+  kilobyte: 1000
+  megabyte: 1000000
+  gigabyte: 1000000000
+  terabyte: 1000000000000
+  petabyte: 1000000000000000
+  exabyte:  1000000000000000000
+  kibibyte: 1024
+  mebibyte: 1048576
+  gibibyte: 1073741824
+  tebibyte: 1099511627776
+  pebibyte: 1125899906842624
+  exbibyte: 1152921504606846976
+
+length:
+  nanometer: 0.000000001
+  micrometer: 0.000001
+  micron: 0.000001
+  millimeter: 0.001
+  centimeter: 0.01
+  meter: 1
+  kilometer: 1000
+  inch: 0.0253999998
+
+space:
+  milliliter: 0.001
+  centiliter: 0.01
+  deciliter: 0.1
+  liter: 1
+  cubic_millimeter: 0.000001
+  cubic_centimeter: 0.001
+  cubic_decimeter: 1
+  cubic_meter: 1000
+  cubic_kilometer: 1000000000000
+  gallon: 4.54609926
+  pint: 0.568262408
+
+speed:
+  meters_per_second: 1
+  meters_per_hour: 3600
+  kilometers_per_second: 0.001
+  kilometers_per_hour: 3.6
+  miles_per_second: 0.0006213711922373339
+  miles_per_hour: 2.236936292054402
+
+time:
+  second: 1
+  minute: 60
+  hour: 3600
+  day: 86400
+  week: 604800
+  months: 2629800
+  year: 31557600
+
+weight:
+  milligram: 0.000001
+  gram: 0.001
+  kilogram: 1
+  tonne: 1000
+  pound: 0.453592374
