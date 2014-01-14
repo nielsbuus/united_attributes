@@ -11,12 +11,9 @@ Gem::Specification.new do |s|
   s.email       = ["nielsbuus@gmail.com"]
   s.homepage    = "https://github.com/nielsbuus/united_attributes"
   s.summary     = "Declare the units of numerical model attributes."
-  s.description = "TODO: Description of UnitedAttributes."
+  s.description = "TODO: Description of United Attributes."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
-
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec", "~> 2.1"
 end

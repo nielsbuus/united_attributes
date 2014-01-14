@@ -1,19 +1,19 @@
 require 'forwardable'
+require_relative 'localizer'
 
 class UnitedAttributes::Attribute
+  attr_accessor :options, :domain
   extend Forwardable
   def_delegators(:to_s, :upcase, :gsub)
 
   def initialize(value, options)
     @options = options
     @value = value
-    UnitedAttributes::DOMAINS[@options[:domain]].keys.each do |key|
-      instance_eval do
-        define_singleton_method "as_#{key}s" do
-          as(key)
-        end
-      end
-    end
+    self.domain = options[:domain]
+  end
+
+  def available_units
+    UnitedAttributes::Domains.query(domain).keys
   end
 
   def unit
@@ -25,12 +25,12 @@ class UnitedAttributes::Attribute
   end
 
   def to_s
-    ("%.#{precision}f" % @value) + " " + I18n.t("united_attributes.#{domain}.#{unit}", count: @value)
+    [("%.#{precision}f" % @value), localizer.t("#{domain}.#{unit}.other")].join(" ")
   end
 
   def precision(precision = nil)
     return @options[:precision] if precision.nil?
-    UnitedAttributes::Attribute.new(value, @options.merge(precision: precision))
+    new(value, @options.merge(precision: precision))
   end
 
   def value
@@ -38,10 +38,21 @@ class UnitedAttributes::Attribute
   end
 
   def domain_units
-    UnitedAttributes::DOMAINS[@options[:domain]]
+    r = UnitedAttributes::Domains.query(domain)
+    puts r
+    r
+  end
+
+  def as(unit)
+    unit = unit.to_s
+    UnitedAttributes::Attribute.new(convert(unit), @options.merge(unit: unit))
   end
 
   private
+
+  def localizer
+    UnitedAttributes::Localizer.default
+  end
 
   def convert(to)
     current_factor = domain_units[unit]
@@ -49,8 +60,6 @@ class UnitedAttributes::Attribute
     (value.to_f * current_factor ) / new_factor
   end
 
-  def as(unit)
-    UnitedAttributes::Attribute.new(convert(unit), @options.merge(unit: unit))
-  end
+
 
 end
