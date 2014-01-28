@@ -73,7 +73,7 @@ time:
   hour: 3600
   day: 86400
   week: 604800
-  months: 2629800
+  month: 2629800
   year: 31557600
 
 weight:
